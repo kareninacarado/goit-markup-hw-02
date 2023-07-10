@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+    --iriscolor: #4d5ae5; 
+    --navyblue: #2e2f42;
+    --navcolor: black;
+    --oceancolor: #2196f3;
+    --whitecolor: white;
+    --slatecolor: #434455;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    background-color: var(--whitecolor);
+    letter-spacing: 0.03em;
+}
+
+.link-logo {
+    text-decoration: none;
+    /*font-family: "Raleway", sans-serif;*/
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+.web-logo {
+    color: var(--iriscolor);
+}
+
+.studio-logo {
+    color: var(--navyblue);
+
+}
+.studio-logo2{
+    color: white;
+}
+
+.navbar .pages {
+    color: var(--navcolor);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+}
+
+.lists {
+    list-style-type: none;
+}
+
+.navbar .pages:hover,
+.navbar .pages:focus,
+.navbar .pages.currentoption, 
+.contact-info .info:hover, 
+.contact-info .info:focus {
+    color:var(--oceancolor);
+
+}
+.contact-info .info {
+    color: var(--navcolor);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.bg-section1 {
+    background-color: var(--navyblue);
+}
+
+.h1-title {
+    color: var(--whitecolor);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.btn {
+    cursor: pointer;
+    border-color: transparent;
+    letter-spacing: 0.05em;
+    font-family: inherit;
+}
+
+.btn.primary {
+    background-color: var(--oceancolor);
+    color: var(--whitecolor);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.btn.primary:hover, 
+.btn.primary:focus {
+    background-color: hotpink;
+}
+.btn.filter {
+    background-color: var(--whitecolor);
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    padding: 10px;
+
+}
+.btn.filter:hover,
+.btn.filter:focus,
+.btn.filter.primary {
+    background-color: var(--oceancolor);
+    color: var(--whitecolor);
+}
+
+.desclist.titlelist {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--slatecolor);
+}
+
+.sectiontitle {
+    text-align: center;
+    color: var(--navyblue);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.teamname {
+    color: var(--navyblue);
+    font-weight: 900;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.position {
+    color: var(--slatecolor);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.lastpart {
+    width: 1440px;
+    padding: 156px;
+}
+.footerbg {
+    background-color: var(--navyblue);
+}
+
+.lastword {
+    color: var(--whitecolor);
+    font-size: 16px;
+    margin-top: 17.5px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.pictures {
+    text-decoration: none;
+}
+.pictures .titlelist2 {
+    color: var(--navcolor);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    letter-spacing: 0.06em;
+}
+
+.pictures .desclist2 {
+    color: var(--navcolor);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    letter-spacing: 0.06em;
+}
